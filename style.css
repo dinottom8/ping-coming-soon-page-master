@@ -121,3 +121,36 @@ footer {
     background-color: hsl(223, 87%, 63%);
     transition: ease 0.2s;
 }
+
+@media screen and (max-width: 720px) {
+    body {
+        width: 375px;
+        height: fit-content;
+        overflow: scroll;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+    #inputEmail {
+        width: 15em;
+        padding-left: 2em;
+    }
+
+    #imgDashboard {
+        height: 200px;
+        margin-top: 2em;
+    }
+
+    #erroEmail {
+        right: 70px;
+    }
+}
