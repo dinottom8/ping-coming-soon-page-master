@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 70%;
+}
+
+#logo {
+    margin-top: 4em;
+}
+
+h1 {
+    font-weight: 100;
+    color: gray;
+    font-size: 2em;
+}
+
+b {
+    color: black;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+#inputEmail {
+    border: 1pt solid gray;
+    border-radius: 50vh;
+    width: 35em;
+    padding-left: 2em;
+}
+
+#inputButton {
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    width: 10em;
+    height: 4em;
+    border-radius: 50vh;
+    color: white;
+    font-weight: 600;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#redesSociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+#copyrightDiv {
+    color: gray;
+}
+
+#imgDashboard {
+    height: 50vh;
+    margin-top: 2em;
+}
